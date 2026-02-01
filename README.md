@@ -45,7 +45,7 @@ EventManagement
 │── src
 │   └── main
 │       ├── java
-│       │   └── com.example.eventmanagement
+│       │   └── com.hms.EventManagement
 │       └── resources
 │           ├── static
 │           │   ├── images
