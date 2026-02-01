@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+         <span class="navbar-brand mb-0 h1">Update Event</span>
+      </div>
+    </nav>
+    <br></br>
+   
+    <form id="updateEventForm">
+        <label>EventId:</label> 
+       <input type="text" id="eventId"><br><br> 
+
+       <label>Event Name:</label> 
+       <input type="text" id="eventname"><br><br> 
+
+       <label>Date:</label> 
+       <input type="text" id="date" placeholder="yyyy-mm-dd"><br><br> 
+
+       <label>Description:</label> 
+       <input type="text" id="description"><br><br> 
+
+       <button class="btn btn-sm btn-warning update-btn" id="updateForm" type="submit">Update</button> 
+       <button class="btn btn-sm btn-danger delete-btn" id="cancelbtn" type="button">Cancel</button> 
+    </form>
+
+
+    <script src="updateEvent.js"></script>
+    
+</body>
+</html>
